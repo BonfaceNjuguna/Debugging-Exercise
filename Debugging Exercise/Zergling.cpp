@@ -4,6 +4,12 @@
 
 Zergling::Zergling()
 {
+	health = 10;
+}
+
+Zergling::Zergling(int h)
+{
+	health = h;
 }
 
 

@@ -8,9 +8,15 @@ Marine::Marine()
 }
 
 
+Marine::Marine(int h)
+{
+	health = h;
+}
+
 Marine::~Marine()
 {
 }
+
 
 int Marine::attack()
 {

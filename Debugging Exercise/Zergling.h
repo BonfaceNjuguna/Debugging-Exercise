@@ -5,6 +5,7 @@ class Zergling : public Entity
 {
 public:
 	Zergling();
+	Zergling(int h);
 	~Zergling();
 
 	int attack();
